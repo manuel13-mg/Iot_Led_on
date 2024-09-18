@@ -1,12 +1,13 @@
-#define BLYNK_TEMPLATE_ID "TMPL3pwsG8V6t"
-#define BLYNK_TEMPLATE_NAME "Led on"
+#define BLYNK_TEMPLATE_ID "Your_Template_ID"
+#define BLYNK_TEMPLATE_NAME "Your_Template_Name"
+
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
-char auth[] = "6GG0vq_oOyFxNWyv6IfIyr28diFBP3fj";
-char ssid[] = "GNXS-2.4G-C72C91 ext";
-char pass[] = "BC62D2C72C91";
+char auth[] = "Autherisation ID";
+char ssid[] = "SSID Name";
+char pass[] = "Password";
 
 void setup() {
     Serial.begin(9600);
